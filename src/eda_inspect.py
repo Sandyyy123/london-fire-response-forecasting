@@ -1,4 +1,4 @@
-"""Quick inspection: row counts, schema, target stats — sampled."""
+"""Quick inspection: row counts, schema, target stats (sampled)."""
 import pandas as pd
 import os, json
 
