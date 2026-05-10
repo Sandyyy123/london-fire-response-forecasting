@@ -2,7 +2,7 @@
 import pandas as pd
 import os, json
 
-DATA = '/root/AI/liora_projects/04_london_fire_brigade/data'
+DATA = '/root/AI/project_root/data'
 OUT = {}
 
 csv_path = f'{DATA}/lfb_incidents_2009_2017.csv'
@@ -63,6 +63,6 @@ for nm, df in [('csv', df1), ('xlsx2', df2), ('xlsx3', df3)]:
     miss = (df.isna().mean()*100).sort_values(ascending=False).head(15)
     OUT[f'{nm}_missing_top15'] = miss.round(2).to_dict()
 
-with open('/root/AI/liora_projects/04_london_fire_brigade/src/eda_summary.json', 'w') as f:
+with open('/root/AI/project_root/src/eda_summary.json', 'w') as f:
     json.dump(OUT, f, indent=2, default=str)
 print('SAVED summary')

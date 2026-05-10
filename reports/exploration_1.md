@@ -2,7 +2,7 @@
 
 ## 1. Project context
 
-The London Fire Brigade (LFB) is the busiest fire and rescue service in the UK and one of the largest in the world. The objective of this Liora project is to analyse and estimate response and mobilisation times. The headline target variable is `FirstPumpArriving_AttendanceTime`, the time in seconds between the 999 call and the arrival of the first pump on scene.
+The London Fire Brigade (LFB) is the busiest fire and rescue service in the UK and one of the largest in the world. The objective of this Portfolio project is to analyse and estimate response and mobilisation times. The headline target variable is `FirstPumpArriving_AttendanceTime`, the time in seconds between the 999 call and the arrival of the first pump on scene.
 
 ## 2. Data sources
 
